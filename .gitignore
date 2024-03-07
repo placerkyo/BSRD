@@ -12,7 +12,6 @@ out0.txt
 out1.txt
 lr_rgb/
 /openai-*/
-*.sh
 .nfs*
 image/
 /pwcnet/pwcnet-network-default.pth
