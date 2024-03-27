@@ -41,3 +41,8 @@ sh train_real.sh
 ```
 sh sample_real.sh
 ```
+
+## References
+* [guided-diffusion](https://github.com/openai/guided-diffusion)
+* [Burstormer](https://github.com/akshaydudhane16/Burstormer)
+* [BIPNet](https://github.com/akshaydudhane16/BIPNet)
