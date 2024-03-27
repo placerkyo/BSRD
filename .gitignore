@@ -13,7 +13,6 @@ out1.txt
 lr_rgb/
 /openai-*/
 .nfs*
-image/
 /pwcnet/pwcnet-network-default.pth
 
 # Byte-compiled / optimized / DLL files
