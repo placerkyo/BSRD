@@ -15,9 +15,9 @@ Burst Super-Resolution with Diffusion Models for Improving Perceptual Quality, I
 sh train_synth.sh
 ```
 ### Evaluation
-- Download [syn_burst_val](https://data.vision.ee.ethz.ch/bhatg/syn_burst_val.zip) and place it in './synth/SyntheticBurstVal'.
-- Download [BIPNet Trained model](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/akshay_dudhane_mbzuai_ac_ae/EYlxq0X49fRGiFD3kMxnM6IB7VNtwhd3atNr4oc1b1psbA?e=pLN14I) or [BIPNet](https://github.com/akshaydudhane16/BIPNet/tree/main) and place it in './Trained_models/synth/BIPNet.ckpt'.
-- Download [Burstormer Trained model](https://drive.google.com/file/d/1E_6NdmzNjaEpxlrN06SQ9JAyOvGG5wA4/view?usp=sharing) or [Burstormer](https://github.com/akshaydudhane16/Burstormer/tree/main) and place it in './Trained_models/synth/Burstormer.ckpt'.
+- Download [syn_burst_val](https://data.vision.ee.ethz.ch/bhatg/syn_burst_val.zip) (or [DBSR](https://github.com/goutamgmb/deep-burst-sr)([dataset](https://drive.google.com/file/d/1DHu3-_tGSc_8Wwwu6sHFaPtmd9ymd0rZ/view))) and place it in './synth/SyntheticBurstVal'.
+- Download [BIPNet Trained model](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/akshay_dudhane_mbzuai_ac_ae/EYlxq0X49fRGiFD3kMxnM6IB7VNtwhd3atNr4oc1b1psbA?e=pLN14I) (or [BIPNet](https://github.com/akshaydudhane16/BIPNet/tree/main)) and place it in './Trained_models/synth/BIPNet.ckpt'.
+- Download [Burstormer Trained model](https://drive.google.com/file/d/1E_6NdmzNjaEpxlrN06SQ9JAyOvGG5wA4/view?usp=sharing) (or [Burstormer](https://github.com/akshaydudhane16/Burstormer/tree/main)) and place it in './Trained_models/synth/Burstormer.ckpt'.
 - Download [BSRD Trained model](https://drive.google.com/file/d/1YJumrSNDW4e6C3pwm4JFanHrR2tOz2UP/view?usp=sharing) and place it in './Trained_models/synth/BSRD_synth.pt'.
         
 ```
@@ -32,10 +32,10 @@ sh sample_synth.sh
 sh train_real.sh
 ```
 ### Evaluation
-- Download [burstsr_dataset](https://data.vision.ee.ethz.ch/bhatg/BurstSRChallenge/val.zip).
-- Download [PWC Trained model](https://data.vision.ee.ethz.ch/bhatg/pwcnet-network-default.pth) and place it in './pwcnet/pwcnet-network-default.pth'.
-- Download [BIPNet Trained model](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/akshay_dudhane_mbzuai_ac_ae/EYlxq0X49fRGiFD3kMxnM6IB7VNtwhd3atNr4oc1b1psbA?e=pLN14I) or [BIPNet](https://github.com/akshaydudhane16/BIPNet/tree/main) and place it in './Trained_models/real/BIPNet.ckpt'.
-- Download [Burstormer Trained model](https://drive.google.com/file/d/1ME1WuRaL3Bv7tBlbcO5hY-pOZ5439E0C/view?usp=sharing) or [Burstormer](https://github.com/akshaydudhane16/Burstormer/tree/main) and place it in './Trained_models/real/Burstormer.ckpt'.
+- Download [burstsr_dataset](https://data.vision.ee.ethz.ch/bhatg/BurstSRChallenge/val.zip) (or [DBSR](https://github.com/goutamgmb/deep-burst-sr)([dataset](https://drive.google.com/drive/folders/1A8FytFrYP-y7pZZhfFxVRzEPwcKl-Cp7))).
+- Download [PWC Trained model](https://data.vision.ee.ethz.ch/bhatg/pwcnet-network-default.pth) (or [pwcnet in Burstormer](https://github.com/akshaydudhane16/Burstormer/tree/main/Burst%20Super-resolution/pwcnet) ) and place it in './pwcnet/pwcnet-network-default.pth'.
+- Download [BIPNet Trained model](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/akshay_dudhane_mbzuai_ac_ae/EYlxq0X49fRGiFD3kMxnM6IB7VNtwhd3atNr4oc1b1psbA?e=pLN14I) (or [BIPNet](https://github.com/akshaydudhane16/BIPNet/tree/main)) and place it in './Trained_models/real/BIPNet.ckpt'.
+- Download [Burstormer Trained model](https://drive.google.com/file/d/1ME1WuRaL3Bv7tBlbcO5hY-pOZ5439E0C/view?usp=sharing) (or [Burstormer](https://github.com/akshaydudhane16/Burstormer/tree/main)) and place it in './Trained_models/real/Burstormer.ckpt'.
 - Download [BSRD Trained model](https://drive.google.com/file/d/1_jn3V1Ln4pm2FigBluYJPbVIfZD2yla7/view?usp=sharing) and place it in './Trained_models/real/BSRD_real.pt'.
 
 ```
