@@ -34,7 +34,7 @@ sh train_real.sh
 ### Evaluation
 - Download [burstsr_dataset](https://data.vision.ee.ethz.ch/bhatg/BurstSRChallenge/val.zip) (or [DBSR](https://github.com/goutamgmb/deep-burst-sr)([dataset](https://drive.google.com/drive/folders/1A8FytFrYP-y7pZZhfFxVRzEPwcKl-Cp7))).
 - Download [PWC Trained model](https://data.vision.ee.ethz.ch/bhatg/pwcnet-network-default.pth) (or [pwcnet in Burstormer](https://github.com/akshaydudhane16/Burstormer/tree/main/Burst%20Super-resolution/pwcnet) ) and place it in './pwcnet/pwcnet-network-default.pth'.
-- Download [BIPNet Trained model](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/akshay_dudhane_mbzuai_ac_ae/EYlxq0X49fRGiFD3kMxnM6IB7VNtwhd3atNr4oc1b1psbA?e=pLN14I) (or [BIPNet](https://github.com/akshaydudhane16/BIPNet/tree/main)) and place it in './Trained_models/real/BIPNet.ckpt'.
+- Download [BIPNet Trained model](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/akshay_dudhane_mbzuai_ac_ae/EX4h9sC8zvtPkoHQkvTY8VABxF2C4agXqL9HENW1_7Td9Q?e=XIXchy) (or [BIPNet](https://github.com/akshaydudhane16/BIPNet/tree/main)) and place it in './Trained_models/real/BIPNet.ckpt'.
 - Download [Burstormer Trained model](https://drive.google.com/file/d/1ME1WuRaL3Bv7tBlbcO5hY-pOZ5439E0C/view?usp=sharing) (or [Burstormer](https://github.com/akshaydudhane16/Burstormer/tree/main)) and place it in './Trained_models/real/Burstormer.ckpt'.
 - Download [BSRD Trained model](https://drive.google.com/file/d/1_jn3V1Ln4pm2FigBluYJPbVIfZD2yla7/view?usp=sharing) and place it in './Trained_models/real/BSRD_real.pt'.
 
